@@ -14,11 +14,11 @@ import os
 import json
 import pandas as pd
 import shapely.geometry
-import geopandas as gpd
-import geopandas_osm.osm
+#import geopandas as gpd
+#import geopandas_osm.osm
 import cv2
 import pickle
-from rasterio.tools.mask import mask
+from rasterio.mask import mask
 import seaborn as sns
 import random
 from rasterio.merge import merge
